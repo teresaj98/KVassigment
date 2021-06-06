@@ -1,0 +1,218 @@
+
+.Sidebar {
+                position: absolute;
+                margin: 0;
+                padding-top: 20px;
+                width: 200px;
+                height: 600px;
+                
+            }
+
+.Content {
+                position: absolute;
+                width: 84%;
+                margin-left: 200px;
+                height: 600px;
+                box-shadow: 1px 0px 5px #929292 inset; 
+                background-color: #fdfcfc;
+            }
+            
+.Emp{
+
+                margin-right: 0;
+                margin-left: auto;
+                border-radius: 40px 0px 0px 40px;
+                background-color: dodgerblue;
+                width: 175px;
+                height: 40px; 
+                text-align: center;
+            }
+
+.Sidebar p {
+                color: white;
+                padding-top: 10px;
+                 }
+            
+.Create{
+                position: relative;
+                background-color: white;
+                top: 20px;
+                left:20px;
+                height: 60px;
+                width:calc(100% - 40px);
+                text-align: left;
+                box-shadow: 1px 1px 4px #cfcfcf;
+                border-radius: 5px 5px 5px 5px;
+              }  
+            
+.Form{
+                position: relative;
+                background-color: white;
+                top: 20px;
+                left:20px;
+                height: fit-content;
+                width:calc(100% - 80px);
+                text-align: left;
+                box-shadow: 1px 1px 4px #cfcfcf;
+                border-radius: 5px 5px 5px 5px;
+                padding: 20px;
+              }  
+
+.Container {
+                padding-bottom: 20px; 
+                display: flex;
+                }
+
+.Container > div {
+                flex: 1; /*grow*/
+                }
+
+label{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: small;
+                color: #494949;
+            }
+
+            
+input[type=file], input[type=text], select ,.Cont{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: small;
+                color: #838282;
+                height: 35px;
+                width: calc(100% - 20px);
+                padding: 8px 20px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: rgb(250, 248, 248);
+            }
+.Cont{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: small;
+                color: #838282;
+                height: 35px;
+                width: calc(100% - 20px);
+                padding: 8px 20px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: rgb(250, 248, 248);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+#create{
+                color: #ffffff;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                width: 100px;
+                height: 30px;
+                margin: 12px 0px;
+                border: 1px solid dodgerblue;
+                box-shadow: 1px 1px 4px rgb(107, 159, 255);
+                box-sizing: border-box;
+                background-color:dodgerblue;
+                
+            }
+.Buttonalign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+            
+#cancel{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color:  #838282;
+                width: 100px;
+                height: 30px;
+                margin: 12px 10px;
+                border: 1px solid #ccc;
+                box-shadow: 1px 1px 6px rgb(230, 230, 231);
+                box-sizing: border-box;
+                background-color:rgb(255, 255, 255);
+                
+            }
+.Sidebardiv{
+                height: 50px;
+              }  
+              
+.Image{
+    object-fit:contain ; 
+    width: 200px;
+}
+.Icon{
+    width: 20px;
+    padding-right:7px ;
+}
+.Heading{
+    padding-top: 20px; 
+    padding-left: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: bold;
+}
+.Center{
+                padding-left: 5px;
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                align-items: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                font-size:13px;
+            }
+            
+.Custom-file {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: small;
+                color: #838282;
+                height: 25px;
+                text-align: center;
+                padding-top: 2px;
+                width: 70px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: rgb(250, 248, 248);
+                
+                
+
+            }
+            
+.Custom-file:hover {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: small;
+                color: #fffbfb;
+                height: 25px;
+                text-align: center;
+                padding-top: 2px;
+                width: 70px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: rgb(139, 139, 139);
+                right:0;
+
+            }
+           
+.Ifile {
+                width: 0.1px;
+                height: 0.1px;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                z-index: -1;
+            }
+            
+            
+@media screen and (max-width: 700px) {
+            s.container {
+                
+                display: flex;
+                flex-direction: column;
+                }
+            .container > div {
+                flex: 1;
+                flex-direction: column; /*grow*/
+                }}
